@@ -1,0 +1,73 @@
+baseURL = "http://msp.org/"
+languageCode = "en-us"
+title = "Menschen statt Profite"
+theme = "timer"
+
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "/"
+weight  = 1
+[[menu.main]]
+name    = "Kampagnentext"
+url     = "about/about"
+weight  = 2
+#[[menu.main]]
+#name    = "Kontakt"
+#url     = "contact"
+#weight  = 3
+
+
+
+[params]
+home = "Home"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Menschen statt Profite"
+author = "MSP"
+
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/smokebg.jpg"
+heading = "#Menschenstattprofite"
+description = ""
+
+# # flip text
+# [[params.banner.flipText]]
+# title   = "Menschen"
+# [[params.banner.flipText]]
+# title   = "statt"
+# [[params.banner.flipText]]
+# title   = "Profite"
+
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "Liebe Menschen,"
+content = " wir sind die neu gegründete Kampagne #MenschenstattProfite und wir wollen über die Corona Maßnahmen der Bundesregierung aufklären, diskutieren, Kritik äußern, Gegenvorschläge veröffentlichen und mit eigenen Aktionen Druck aufbauen. Denn der Virus macht in dieser Gesellschaft nicht alle gleich er verhärtet gesellschaftliche Missstände die wir nicht hinnehmen wollen.  Die Krise muss von denen gezahlt werden, die von ihr Profitieren und nicht auf dem Rücken derer die am Existenz Minimum oder der Belastungsgrenze Leben und Arbeiten.  Während die Regierung großen Konzernen Milliarden an Hilfen gibt,soll bei kleinen Unternehmen, Arbeitern, Obdachlosen etc gespart werden. Hiergegen wollen wir gemeinsam Kritik äußern und durch vielfältige Aktionen auf unsere heutigen Probleme aufmerksam machen. Wir überlassen das Feld nicht den Verschwörungstheoretikern, die das Virus verharmlosen."
+
+
+image   = "images/fancyfist.svg"
+# button
+#btn     = true
+#btnText = "Materialien herunterladen"
+#btnURL  = "materials/test.pdf"
+
+
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "#"
