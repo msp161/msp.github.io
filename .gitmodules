@@ -1,0 +1,9 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/grayscale"]
+	path = themes/grayscale
+	url = https://github.com/runningstream/hugograyscale/
+[submodule "themes/timer"]
+	path = themes/timer
+	url = https://github.com/themefisher/timer-hugo
